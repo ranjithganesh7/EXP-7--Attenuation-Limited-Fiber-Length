@@ -64,22 +64,24 @@ Using the power budget equation and the parameters below, determine the attenuat
 
 ---
 
-## Analysis and Report
-Compare simulation results with pre-lab calculations and record observations.  
+## Calculation
+<img width="941" height="1600" alt="image" src="https://github.com/user-attachments/assets/3fa7f7ab-6987-4c2b-b0e3-08d8b79d34f2" />
+<img width="1034" height="1410" alt="image" src="https://github.com/user-attachments/assets/5ebd63bd-d7ab-4e93-b6b0-94c280d47316" />
 
-Your report should contain:
-- **Cover Page**
-  - Title of the lab  
-  - Course name and number  
-  - Your name  
-
-- **Pre-lab Calculations**  
-
-- **Screenshots** of layout and results (including eye diagrams)  
-
-- **Summary Table** for each simulation:
-  | Fiber Length (km) | Received Power (dBm) | Q Factor | BER |
-  |-------------------|-----------------------|----------|-----|
   
+## Result
 
-- **Written Summary** of observations and explanations of differences.  
+The attenuation-limited fiber length was calculated using the power budget equation.
+
+### Power Budget
+Power Budget = Pt − Pr = 0 − (−30) = 30 dB
+
+### Total Losses
+- Connector loss = 2 × 0.5 = 1 dB
+- Power margin = 6 dB
+- Remaining loss for fiber = 30 − (1 + 6) = 23 dB 
+
+### Fiber Length
+Fiber length = 23 / 0.19 ≈ 121 km
+
+---
